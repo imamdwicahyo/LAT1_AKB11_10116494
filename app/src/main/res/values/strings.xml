@@ -13,4 +13,6 @@
     <string name="get_umur">Umur Kamu</string>
     <string name="hint_umur">Contoh : 12</string>
     <string name="selanjutnya">Selanjutnya</string>
+    <string name="oke">Oke</string>
+    <string name="test">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
 </resources>

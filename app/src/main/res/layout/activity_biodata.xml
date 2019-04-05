@@ -73,14 +73,14 @@
             android:inputType="number"/>
 
         <Button
-            android:id="@+id/btn_mulai"
+            android:id="@+id/btn_lanjut"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:layout_alignParentBottom="true"
             android:layout_marginTop="10dp"
-            android:layout_marginRight="50dp"
-            android:layout_marginLeft="50dp"
-            android:layout_marginBottom="20dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginBottom="40dp"
             android:background="@drawable/btn_rounded"
             android:fontFamily="@font/nunito_bold"
             android:text="@string/selanjutnya"

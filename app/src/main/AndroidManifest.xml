@@ -18,7 +18,7 @@
         </activity>
         <activity android:name=".Login" />
         <activity android:name=".Biodata" />
-        <activity android:name=".Say_Hai"></activity>
+        <activity android:name=".Sayhai"></activity>
     </application>
 
 </manifest>
