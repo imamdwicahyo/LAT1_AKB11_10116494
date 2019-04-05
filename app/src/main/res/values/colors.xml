@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="gunmetal">#535b60</color>
+    <color name="sunflower">#ffc50d</color>
+    <color name="sun_yellow">#ffe41e</color>
+    <color name="white_two">#f2f2f2</color>
+    <color name="white_tree">#f8f8f8</color>
+    <color name="black_87">#000000</color>
+    <color name="white">#dedede</color>
+</resources>
