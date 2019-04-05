@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--NIM   : 10116494-->
+<!--Nama  : Imam Dwi Cahyo-->
+<!--Kelas : IF-11 / AKB-11-->
+
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:outlineAmbientShadowColor="@color/white_tree"
+    tools:context=".Biodata">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txt_getNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/get_nama"
+            android:fontFamily="@font/rubik_regular"
+            android:textColor="@color/black_87"
+            android:textSize="24dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"/>
+
+        <EditText
+            android:id="@+id/inp_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_getNama"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginLeft="18dp"
+            android:hint="@string/hint_nama"
+            android:textColorHint="@color/cool_grey"
+            android:paddingBottom="24dp"
+            android:fontFamily="@font/rubik_regular"
+            android:textSize="13dp"/>
+
+        <TextView
+            android:id="@+id/txt_getUmur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/get_umur"
+            android:fontFamily="@font/rubik_regular"
+            android:textColor="@color/black_87"
+            android:textSize="24dp"
+            android:layout_below="@id/inp_nama"
+            android:layout_marginTop="22dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"/>
+
+        <EditText
+            android:id="@+id/inp_umur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_getUmur"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginLeft="18dp"
+            android:hint="@string/hint_umur"
+            android:textColorHint="@color/cool_grey"
+            android:paddingBottom="24dp"
+            android:fontFamily="@font/rubik_regular"
+            android:textSize="13dp"
+            android:inputType="number"/>
+
+        <Button
+            android:id="@+id/btn_mulai"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/btn_rounded"
+            android:fontFamily="@font/nunito_bold"
+            android:text="@string/selanjutnya"
+            android:textSize="15dp"
+            android:textAllCaps="false"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -8,4 +8,9 @@
     <string name="masuk">Masuk</string>
     <string name="get_kode">Belum punya kode keluarga?</string>
     <string name="buy_kode">Beli Kode Keluarga Disini</string>
+    <string name="get_nama">Nama Panggilan Kamu</string>
+    <string name="hint_nama">Contoh : Budi</string>
+    <string name="get_umur">Umur Kamu</string>
+    <string name="hint_umur">Contoh : 12</string>
+    <string name="selanjutnya">Selanjutnya</string>
 </resources>
